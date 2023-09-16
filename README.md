@@ -37,7 +37,7 @@ path "database/creds/dbrole" {
 }
 EOF
 ```
-# create role 
+# create auth role 
 ```
 vault write auth/kubernetes/role/flaskapp \
       bound_service_account_names=rds-sa \

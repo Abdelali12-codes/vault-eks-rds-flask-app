@@ -9,7 +9,7 @@ vault write database/config/rds-mysql \
     username="demo" \
     password="demodemo"
 ```
-# Create a database secrets engine role named readonly
+# Create a database secrets engine role named dbrole
 ```
 vault write database/roles/dbrole \
     db_name=rds-mysql \
